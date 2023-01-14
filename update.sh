@@ -40,7 +40,7 @@ for configuration in ${configurations}; do
     elif [ -n "$(command -v wget)" ]; then
       wget -q -O - --user-agent='' "${url}"
     else
-      echo 'Neither ftp nor wget is found.'.
+      echo 'Neither ftp nor wget is found.'
     fi
 
     # New line.
